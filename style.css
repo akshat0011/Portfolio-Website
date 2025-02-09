@@ -1,0 +1,353 @@
+@import url("https://fonts.googleapis.com/css2?family=Love+Light&family=Playfair+Display:ital,wght@1,600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Love+Light&family=Merriweather:ital@1&family=Playfair+Display:ital,wght@1,600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Love+Light&family=Merriweather:ital@1&family=PT+Serif:ital@1&family=Playfair+Display:ital,wght@1,600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Love+Light&family=Merriweather:ital@1&family=PT+Serif:ital@1&family=Playfair+Display:ital,wght@1,600&display=swap");
+/*
+font-family: 'Love Light', cursive;
+font-family: 'Merriweather', serif;
+font-family: 'Playfair Display', serif;
+font-family: 'PT Serif', serif;*/
+/*
+subheading ka font
+font-family: 'Abril Fatface', cursive;
+font-family: 'Love Light', cursive;
+font-family: 'Merriweather', serif;
+font-family: 'Playfair Display', serif;
+font-family: 'PT Serif', serif;
+*/
+* {
+  text-align: center;
+}
+img {
+  display: inline;
+  text-align: right;
+  width: 200px;
+  height: 200px;
+}
+#text-animate {
+  color: #42938f;
+}
+.first-color {
+  background: #272343;
+  width: 100%;
+}
+.third-color {
+  background: #ffffff;
+  margin: 2rem;
+  min-height: 60vh;
+  padding-bottom: 1%;
+}
+.second-color {
+  background: #e3f6f5;
+  margin: 2rem;
+  min-height: 10vh;
+}
+.form-label {
+  align-items: left;
+  text-align: left;
+}
+.content {
+  font-size: 20px;
+  width: 480px;
+  min-height: 30vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+button:hover {
+  background-color: var(--accent);
+}
+.fourth-color {
+  background: #bae8e8;
+  margin: 2rem;
+  min-height: 60vh;
+}
+nav {
+  color: #42938f;
+}
+.navbar {
+  color: #2f7070;
+}
+.techstack {
+  list-style: none;
+  font-size: 480ox;
+  font-family: "Love Light", cursive;
+  font-family: "Merriweather", serif;
+  font-weight: 600;
+}
+.text-1,
+.text-2,
+.text-3 {
+  text-align: left;
+  font-family: "Merriweather", serif;
+  font-family: "Playfair Display", serif;
+  font-size: 2rem;
+}
+.text-2 {
+  margin-left: 2%;
+  font-size: 5rem;
+  font-family: serif;
+  font-weight: bold;
+}
+
+.myphoto {
+  overflow: hidden;
+  width: 26vw;
+  height: 46vh;
+  border-radius: 30%;
+}
+nav {
+  margin: auto;
+}
+.heading1,
+.heading2,
+.heading3 {
+  font-family: "Playfair Display", serif;
+  padding: 20px;
+  padding-bottom: 2px;
+  font-weight: bolder;
+  padding-top: 3%;
+}
+ul {
+  text-decoration: none;
+}
+.sub-heading1,
+.sub-heading2,
+.sub-heading3 {
+  font-family: "Merriweather", serif;
+  font-family: "Playfair Display", serif;
+  padding: auto;
+  margin-bottom: 4%;
+}
+.progress {
+  margin: 1% 2%;
+  border: 2px solid #272343;
+}
+.progress-bar {
+  background-color: #2f7070;
+}
+.icon {
+  flex: 1;
+  margin: 0px;
+  text-align: left;
+  padding: 2px;
+  align-items: center;
+  justify-content: center;
+  color: #272343;
+}
+a {
+  text-decoration: none;
+  height: 30%;
+}
+i {
+  color: #48426e;
+  padding: 2px 4px;
+  font-size: 200%;
+}
+.meet-me {
+  padding: 2rem;
+  font-size: larger;
+  color: rgb(87, 61, 14);
+  font-family: "Playfair Display", serif;
+  font-family: "PT Serif", serif;
+  font-weight: 600;
+  line-height: 2;
+  letter-spacing: 1%;
+}
+.address > li {
+  padding: 2px 0;
+  margin: 0px;
+  font-family: "Love Light", cursive;
+  font-family: "Merriweather", serif;
+  color: rgb(83, 95, 136);
+}
+p {
+  padding: 0 4%;
+  font-size: 1rem;
+  font-family: "Merriweather", serif;
+}
+.infowithpic {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-bottom: 6%;
+}
+.about_me_photo {
+  min-width: 36vw;
+  min-height: 60vh;
+}
+#home {
+  height: 60vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+.form-container {
+  width: 65vw;
+}
+input,
+textarea {
+  width: 60vw;
+  border-radius: 2%;
+  text-align: left;
+}
+label {
+  width: 60vw;
+  text-align: left;
+  font-weight: 400;
+  margin: 20px 0px 0px 0;
+  font-family: "Love Light", cursive;
+  font-family: "Merriweather", serif;
+}
+.connect {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 60vw;
+}
+.btn {
+  font-family: "Love Light", cursive;
+  font-family: "Merriweather", serif;
+  margin: 2vh 25vw;
+  width: 20vw;
+  font-weight: 600;
+}
+.icon {
+  display: flex;
+  flex-direction: column;
+}
+.links {
+  border: 2px solid rgb(119, 215, 192);
+  width: 300px;
+  background-color: #97e2e2;
+  color: #48426e;
+  margin: 10px;
+}
+.wrapper {
+  display: flex;
+  padding-bottom: 3%;
+}
+.links a {
+  color: #48426e;
+  text-decoration: none;
+  font-weight: 600;
+  padding: 0;
+  margin: 0%;
+}
+.type {
+  font-weight: bold;
+}
+.links > p {
+  padding: 0;
+  margin: 0%;
+}
+.tech_skills {
+  margin-top: 3%;
+}
+@media only screen and (max-width: 1200px) {
+  .wrapper {
+    display: block;
+  }
+  .icon {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .connect {
+    width: 80vw;
+  }
+  .form-container {
+    width: 95vw;
+  }
+  input,
+  textarea {
+    width: 70vw;
+  }
+  .about_me_photo {
+    min-width: 34vw;
+  }
+  .links {
+    width: 250px;
+  }
+}
+@media only screen and (max-width: 860px) {
+  .infowithpic {
+    display: block;
+    margin: 0 auto;
+
+  }
+  .about_me_photo {
+    min-width: 60px;
+    min-height: 30px;
+    margin-bottom: 30px;
+  }
+
+  .content {
+    font-size: 16px;
+    width: 100%;
+    min-height: 10vh;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .infowithpic {
+    display: block;
+    margin: 0 auto;
+  }
+  .about_me_photo {
+    min-width: 100px;
+    min-height: 30px;
+  }
+
+  .content {
+    font-size: 12px;
+    width: 90%;
+    min-height: 10vh;
+  }
+  .text-1,
+  .text-2,
+  .text-3 {
+    font-size: 1rem;
+    margin-left: 5%;
+  }
+  .text-2 {
+    margin-left: 5%;
+    font-size: 3rem;
+  }
+  .myphoto {
+    overflow: hidden;
+    width: 30vw;
+    height: 30vh;
+    border-radius: 30%;
+  }
+  .techstack {
+    font-size: 10px;
+    text-align: left;
+  }
+  .form-container {
+    width: 80vw;
+  }
+  .progress {
+    margin: 4px 0px;
+  }
+  .wrapper {
+    display: block;
+  }
+  .icon {
+    flex-direction: column;
+  }
+  .links {
+    min-width: 250px;
+  }
+  label {
+    margin: 0;
+  }
+  input,
+  textarea {
+    width: 70vw;
+  }
+  .links > p {
+    font-size: 10px;
+  }
+}
